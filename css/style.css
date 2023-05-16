@@ -1,0 +1,142 @@
+:root{
+    --blanco: #fff;
+    --negro: #000;
+  }
+  
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+h2 {
+  font-size: 3.6rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 900;;
+  margin: 0 0 2rem 0 ;
+}
+
+img {
+  display: block;
+  max-width:100%;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    background-color:rgba(0, 85, 255, 0.64);
+    margin: 0;
+  }
+
+
+
+#navbar {
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: #aa5151;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #aa5151;
+    
+  }
+}
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#navbar li:hover {
+  background-color: aquamarine;
+}
+
+#navbar li:last-of-type {
+  border-bottom: 1px solid;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar_docu {
+  text-align: center;
+}
+
+#main-doc {
+  position: relative;
+  top: 14px;
+  width: 85%;
+  left: 9%;
+}
+
+@media (min-width: 768px) {
+  #main-doc {
+    padding: 2rem 5rem;
+    position: relative;
+    top:15px;
+    width: 70%;
+    left: 30%;
+  }
+} 
+.li-main {
+  list-style: none;
+}
+.ul-padding {
+  padding: 0;
+}
+
+code {
+  background-color: #fff;
+  font-size: 1.5rem;
+}
+
+.nota {
+  background-color: beige;
+}
+
+span {
+  font-weight: 900;
+}
+
+table {
+  border: 1px solid #000;
+}
+td, th {
+  border: 1px solid #000;
+}
+.footer {
+  text-align: center;
+}

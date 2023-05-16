@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de documentación tecnica</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="contenedor-principal">
+    <nav id="navbar">
+      <header class="navbar_docu">
+        <h2>
+          <a href="index.html">Tutorial HTML</a>
+        </h2>
+      </header>
+      
+        <ul class="ul-padding">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#introduccion_a_html" class="nav-link">Introduccion a HTML</a></li>
+          <li><a href="#comentarios_en_html" class="nav-link">Comentarios en HTML</a></li>
+          <li><a href="#parrafos" class="nav-link">Parrafos</a></li>
+          <li><a href="#tablas" class="nav-link">Tablas</a></li>
+          <li><a href="#listas_html" class="nav-link">Listas html</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="inicio" class="main-section">
+          <header>
+            <h2>Inicio</h2>
+          </header>
+          
+          <p>HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. HTML se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.
+          El lenguaje HTML basa su filosofía de desarrollo en la diferenciación. Para añadir un elemento externo a la página (imagen, vídeo, script, entre otros.), este no se incrusta directamente en el código de la página, sino que se hace una referencia a la ubicación de dicho elemento mediante texto. De este modo, la página web contiene solamente texto mientras que recae en el navegador web (interpretador del código) la tarea de unir todos los elementos y visualizar la página final. Al ser un estándar, HTML busca ser un lenguaje que permita que cualquier página web escrita en una determinada versión, pueda ser interpretada de la misma forma (estándar) por cualquier navegador web actualizado.
+          HTML es un lenguaje de marcado que nos permite indicar la estructura de nuestro documento mediante etiquetas. Este lenguaje nos ofrece una gran adaptabilidad, una estructuración lógica y es fácil de interpretar tanto por humanos como por máquinas.</p>
+  
+        </section>
+
+        <section id="introduccion_a_html" class="main-section">
+          <header>
+            <h2>Introduccion a HTML</h2>
+          </header>
+
+          <h3>¿Que es HTML?</h3>
+
+          <ul>
+            <li>HTML significa lenguaje de marcado de hipertexto</li>
+            <li>HTML es el lenguaje de marcado estándar para crear páginas web.</li>
+            <li>HTML describe la estructura de una página Web</li>
+            <li>HTML consta de una serie de elementos</li>
+            <li>Los elementos HTML le dicen al navegador cómo mostrar el contenido</li>
+            <li>Los elementos HTML etiquetan piezas de contenido como "este es un encabezado", "este es un párrafo", "este es un enlace", etc.</li>
+          </ul>
+
+          <section>
+          <h3>Un documento HTML simple</h3>
+          <h4>Ejemplo:</h4>
+          
+            <li class="li-main">
+              <code>&lt!DOCTYPE html&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&lthtml&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&lthead&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&lttitle&gt Titulo de la página &lt/title&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&lt/head&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&ltbody&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&lth1&gtTitulo de la página &lt/h1&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&ltmain&gt Contenido principal &lt/main&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&ltfooter&gt Pie de Página &lt/footer&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&lt/body&gt</code>
+            </li>
+            <li class="li-main">
+              <code>&lt/html&gt</code>
+            </li>
+          </section>
+
+          <h4>Ejemplo explicado:</h4>
+          
+          <ul>
+            <li>
+              <code>&ltDOCTYPE! html&gt</code> declaración define que este documento es un documento HTML5.
+            </li>
+            <li>el <code> &lthtml&gt </code> elemento es el elemento raíz de una página HTML.</li>
+            <li>
+              El <code>&lthead&gt</code> elemento contiene metainformación sobre la página HTML.
+            </li>
+            <li>
+              El <code>&lttitle&gt</code> elemento especifica un título para la página HTML (que se muestra en la barra de título del navegador o en la pestaña de la página)</code>
+            </li>
+            <li>
+              El <code>&ltBody&gt</code> elemento define el cuerpo del documento y es un contenedor de todos los contenidos visibles, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.
+            </li>
+            <li>
+              El <code>&ltH1&gt</code> elemento define un encabezado grande
+            </li>
+            <li>
+              El <code>&ltP&gt</code> elemento define un párrafo.
+            </li>
+          </ul>
+        </section>
+
+        <section id="comentarios_en_html" class="main-section">
+          <header>
+            <h2>Comentarios en HTML</h2>
+          </header>
+          <p>Los comentarios HTML no se muestran en el navegador, pero pueden ayudar a documentar su código fuente HTML.</p>
+          <h3>Etiqueta de comentario HTML</h3>
+          <p>Puede agregar comentarios a su fuente HTML usando la siguiente sintaxis:</p>
+          <code> &lt!-- write your comments here --&gt</code>
+          <p>Observe que hay un signo de exclamación (!) en la etiqueta inicial, pero no en la etiqueta final.</p>
+          <p class="nota"><span>Nota:</span>el navegador no muestra los comentarios, pero pueden ayudar a documentar su código fuente HTML.</p>
+          <h3>Añadir comentarios</h3>
+          <p>Con los comentarios puedes colocar notificaciones y recordatorios en tu código HTML:</p>
+          <p><code>&lt!-- This is a comment --&gt</code></p>
+          <p><code>&ltRemember to add more information here&gt</code></p>
+          <h3>Ocultar contenido</h3>
+          <p>Los comentarios se pueden utilizar para ocultar contenido.</p>
+          <p>Esto puede ser útil si oculta contenido temporalmente:</p>
+          <h4>Ejemplo:</h4>
+          <p>This is a paragraph.</p>
+          <p><code>&lt!-- &ltp&gt This is another paragraph.&lt/p&gt --&gt</code></p>
+          <p>This is a paragraph too.</p>
+        </section>
+
+        <section id="parrafos" class="main-section">
+          <header>
+            <h2>Parrafos</h2>
+          </header>
+          <p>Un párrafo siempre comienza en una nueva línea y suele ser un bloque de texto.</p>
+          <p>El elemento HTML <code>&ltp&gt</code> define un párrafo. </p>
+          <p>Un párrafo siempre comienza en una nueva línea y los navegadores agregan automáticamente un espacio en blanco (un margen) antes y después de un párrafo.</p>
+          <h4>Ejemplo:</h4>
+          <p><code>&ltp&gtThis is a paragraph.&lt/p&gt</code></p>
+          <p><code>&ltp&gt This is another paragraph.&lt/p&gt</code></p>
+          <h3>Pantallas</h3>
+          <p>No puede estar seguro de cómo se mostrará HTML.
+
+            Las pantallas grandes o pequeñas y las ventanas redimensionadas crearán resultados diferentes.
+            
+            Con HTML, no puede cambiar la visualización agregando espacios adicionales o líneas adicionales en su código HTML.
+            
+            El navegador eliminará automáticamente cualquier espacio y línea adicional cuando se muestre la página:</p>
+          <code>&ltp&gt</code>
+          <p>This paragraph</p>
+          <p>contains a lot of lines</p>
+          <p>in the source code,</p>
+          <p>but the browser</p>
+          <p>ignores it.</p>
+          <code>&lt/p&gt</code>
+
+        </section>
+
+        <section id="tablas" class="main-section">
+          <header>
+            <h2>Tablas</h2>
+          </header>
+          <p>Las tablas HTML permiten a los desarrolladores web organizar los datos en filas y columnas.</p>
+          <h3>Definir una tabla HTML</h3>
+          <p>Una tabla en HTML consta de celdas de tabla dentro de filas y columnas.</p>
+          <h4>Ejemplo de una tabla HTML simple:</h4>
+          <table>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+          </table>
+          
+        </section>
+
+        <section id="listas_html" class="main-section">
+          <header>
+            <h2>Listas html</h2>
+          </header>
+          <p>Las listas HTML permiten a los desarrolladores web agrupar un conjunto de elementos relacionados en listas.</p>
+          <h4>Ejemplo:</h4>
+          <p>Una lista HTML desordenada:</p>
+          <ul>
+            <li>Artículo</li>
+            <li>Artículo</li>
+            <li>Artículo</li>
+          </ul>
+
+          <p>Una lista ordenada:</p>
+          <ol>
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+          </ol>
+          <h3>Lista HTML desordenada</h3>
+          <p>Una lista desordenada comienza con la <code>&ltul&gt</code> etiqueta. Cada elemento de la lista comienza con la <code>&ltli&gt</code> etiqueta.Los elementos de la lista se marcarán con viñetas (pequeños círculos negros) de forma predeterminada:</p>
+          
+            <ul>
+              <li>Nosortos</li>
+              <li>Contacto</li>
+              <li>Servicios</li>
+            </ul>
+          
+          <h3>Lista HTML ordenada</h3>
+          <p>Una lista ordenada comienza con la <code>&ltol&gt</code> etiqueta. Cada elemento de la lista comienza con la <code>&ltli&gt</code> etiqueta.Los elementos de la lista se marcarán con números de forma predeterminada:</p>
+          <ol>
+            <li>primera</li>
+            <li>segunda</li>
+            <li>tercera</li>
+          </ol>
+        </section>
+
+    </main>
+    
+  </div>
+
+  <footer class="footer">Copyright © Todos los derechos reservados </footer>
+
+</body>
+</html>
